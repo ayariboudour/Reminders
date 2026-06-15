@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">Reminders</string>
+    <string name="wifi_password">Wifi Password</string>
+    <string name="bike_lock">Bike Lock</string>
+    <string name="tablet_pin">Tablet Pin</string>
     <!-- TODO: Remove or change this placeholder text -->
 </resources>

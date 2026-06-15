@@ -10,7 +10,6 @@ import androidx.fragment.app.FragmentActivity
 import androidx.viewpager2.adapter.FragmentStateAdapter
 import com.boudour.reminders.databinding.ActivityMainBinding
 import com.boudour.reminders.fragements.GeneralFragment
-import com.boudour.reminders.fragements.PasswordFragement
 import com.google.android.material.tabs.TabLayoutMediator
 
 class MainActivity : AppCompatActivity() {
@@ -40,9 +39,9 @@ class MainActivity : AppCompatActivity() {
 
         override fun createFragment(position: Int): Fragment {
             return when (position) {
-                0 -> PasswordFragement()
+                0 -> PasswordFragment()
                 1 -> GeneralFragment()
-                else -> PasswordFragement()
+                else -> PasswordFragment()
             }
         }
     }

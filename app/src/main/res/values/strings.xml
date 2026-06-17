@@ -3,5 +3,8 @@
     <string name="wifi_password">Wifi Password</string>
     <string name="bike_lock">Bike Lock</string>
     <string name="tablet_pin">Tablet Pin</string>
+    <string name="wedding_anniversary">Wedding Anniversary</string>
+    <string name="national_insurance_number">National Insurance Number</string>
+    <string name="bin_day">Bin Day</string>
     <!-- TODO: Remove or change this placeholder text -->
 </resources>
